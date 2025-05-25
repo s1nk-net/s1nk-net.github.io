@@ -3,9 +3,7 @@ description: "My path to mastering C development and red team techniques"
 baseurl: ""
 url: "https://www.s1nk.net"
 
-remote_theme: pages-theme/hacker
+theme: jekyll-theme-midnight
 
 markdown: kramdown
 highlighter: rouge
-plugins:
-  - jekyll-remote-theme
