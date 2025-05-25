@@ -3,13 +3,9 @@ description: "My path to mastering C development and red team techniques"
 baseurl: ""
 url: "https://www.s1nk.net"
 
-# Theme selection (pick one)
-theme: minima           # Clean, simple (default)
-# theme: jekyll-theme-hacker     # Green terminal style
-# theme: jekyll-theme-minimal    # Very clean, minimal
-# theme: jekyll-theme-midnight   # Dark theme
-# theme: jekyll-theme-cayman     # Modern with header
-# theme: jekyll-theme-slate      # Dark professional
+remote_theme: pages-theme/hacker
 
 markdown: kramdown
 highlighter: rouge
+plugins:
+  - jekyll-remote-theme
